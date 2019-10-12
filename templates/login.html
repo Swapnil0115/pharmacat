@@ -1,0 +1,60 @@
+
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>Sliding Login Form</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+<link href='https://fonts.googleapis.com/css?family=Roboto:300,400' rel='stylesheet' type='text/css'><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+<link rel="stylesheet" type=text/css href="{{url_for('static',filename='css/login.css')}}" >
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<div id="back">
+  <div class="backRight"></div>
+  <div class="backLeft"></div>
+</div>
+
+<div id="slideBox">
+  <div class="topLayer">
+    <div class="left">
+      <div class="content">
+        <h2>Sign Up</h2>
+        <form method="post" onsubmit="return false;">
+          <div class="form-group">
+            <input type="text" placeholder="username" />
+          </div>
+          <div class="form-group"></div>
+          <div class="form-group"></div>
+          <div class="form-group"></div>
+        </form>
+        <button id="goLeft" class="off">Login</button>
+        <button>Sign up</button>
+      </div>
+    </div>
+    <div class="right">
+      <div class="content">
+        <h2>Login</h2>
+        <form method="post" onsubmit="return false;">
+          <div class="form-group">
+            <label for="username" class="form-label">Username</label>
+            <input type="text" />
+          </div>
+          <button id="goRight" class="off">Sign Up</button>
+          <button id="login" type="submit">Login</button>
+        </form>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!--Inspiration from: http://ertekinn.com/loginsignup/-->
+<!-- partial -->
+  <script src='http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
+<script type="text/javascript"
+         src="{{ url_for('static', filename='js/login.js') }}"></script>
+
+</body>
+</html>
+
+   
