@@ -4,9 +4,9 @@ This is an attempt to predict diseases from the given symptoms. A decision tree 
 
 This dataset is uncleaned so preprocessing is done and then model is trained and tested on it.
 
-Next another decision tree was also trained on [manually created dataset](https://github.com/Aniruddha-Tapas/Predicting-Diseases-From-Symptoms/tree/master/Manual-Data) which contains both training and testing sets. This data is cleaned and extensive and hence learning was more accurate. The exported decision tree looks like the following :
+Next another decision tree was also trained on [manually created dataset] (https://github.com/Aniruddha-Tapas/Predicting-Diseases-From-Symptoms/tree/master/Manual-Data) which contains both training and testing sets . This data is cleaned and extensive and hence learning was more accurate. The exported decision tree looks like the following :-
 
-![Decision-Tree](https://raw.githubusercontent.com/Aniruddha-Tapas/Predicting-Diseases-From-Symptoms/master/tree-top5.png)
+![Decision-Tree] (https://raw.githubusercontent.com/Aniruddha-Tapas/Predicting-Diseases-From-Symptoms/master/tree-top5.png)
 
 
 Head over to [Data-Analyis.ipynb](https://github.com/Aniruddha-Tapas/Predicting-Diseases-From-Symptoms/blob/master/Data-Analysis.ipynb) to follow the whole process.
