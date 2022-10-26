@@ -4,7 +4,7 @@ This is an attempt to predict diseases from the given symptoms. A decision tree 
 
 This dataset is uncleaned so preprocessing is done and then model is trained and tested on it.
 
-Next another decision tree was also trained on [manually created dataset] (https://github.com/Aniruddha-Tapas/Predicting-Diseases-From-Symptoms/tree/master/Manual-Data) which contains both training and testing sets . This data is cleaned and extensive and hence learning was more accurate. The exported decision tree looks like the following :-
+Next another decision tree was also trained on [manually created dataset] (https://github.com/Aniruddha-Tapas/Predicting-Diseases-From-Symptoms/tree/master/Manual-Data) which contains both training and testing sets. This data is cleaned and extensive and hence learning was more accurate. The exported decision tree looks like the following :-
 
 ![Decision-Tree] (https://raw.githubusercontent.com/Aniruddha-Tapas/Predicting-Diseases-From-Symptoms/master/tree-top5.png)
 
@@ -13,7 +13,7 @@ Head over to [Data-Analyis.ipynb](https://github.com/Aniruddha-Tapas/Predicting-
 
 <hr>
 
-#### To Do:
+#### To Do :-
 
 - [ ] Create a web service in Flask for disease predictions using the trained model.
 - [ ] Perform Affinity Analyis to observe which symptoms usually occur together.
